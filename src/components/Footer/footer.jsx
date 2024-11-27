@@ -8,7 +8,7 @@ import S from './footer.module.scss';
 export default function Footer() {
     return (
         <footer>
-            <section className={S.boxteste}>
+            <section className={S.boxSocial}>
                 <h3>4002-8922</h3>
                 <nav>
                     <a href="#"><img src={facebook} alt="Logo Facebook"/></a>
@@ -18,7 +18,7 @@ export default function Footer() {
                     <a href="#"><img src={instagram} alt="Logo Instagram"/></a>
                 </nav>
             </section>
-            <section>
+            <section className={S.boxFim}>
                 <p>Layout desenvolvido pela Vai Na Web para fins educativos - 2024 </p>
             </section>
         </footer>
