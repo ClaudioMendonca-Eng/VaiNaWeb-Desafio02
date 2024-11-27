@@ -11,7 +11,7 @@ export default function Footer() {
             <section className={S.boxSocial}>
                 <h3>4002-8922</h3>
                 <nav>
-                    <a href="#"><img src={facebook} alt="Logo Facebook"/></a>
+                    <a href="#"><img src={facebook} alt="Logos Facebook"/></a>
                     <a href="#"><img src={twitter} alt="Logo Twitter"/></a>
                     <a href="#"><img src={youtube} alt="Logo YouTube"/></a>
                     <a href="#"><img src={linkedin} alt="Logo LinkedIn"/></a>
