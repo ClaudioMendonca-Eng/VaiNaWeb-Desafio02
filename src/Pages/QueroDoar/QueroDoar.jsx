@@ -1,29 +1,22 @@
-
+import Livro from '../../Assets/livro.png';
+import S from './QueroDoar.module.scss';
 
 export default function QueroDoar() {
     return (
-        <section>
-            <h2>Quero Doar</h2>
-            <p>
-                Se você tem livros em casa que não usa mais, você pode doá-los para o Livros Vai na Web
-                e ajudar outras pessoas a terem acesso a uma leitura de qualidade.
-            </p>
-            <p>
-                Para doar, basta preencher o formulário abaixo e aguardar o contato da nossa equipe.
-            </p>
-            <form>
-                <label htmlFor="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required />
-                <label htmlFor="email">E-mail:</label>
-                <input type="email" id="email" name="email" required />
-                <label htmlFor="telefone">Telefone:</label>
-                <input type="tel" id="telefone" name="telefone" required />
-                <label htmlFor="endereco">Endereço:</label>
-                <input type="text" id="endereco" name="endereco" required />
-                <label htmlFor="livros">Livros:</label>
-                <textarea id="livros" name="livros" required />
-                <button type="submit">Enviar</button>
+        <section className={S.principal}>
+            <section className={S.container}>
+            <h2>Por favor, preencha o formulário com suas informações e as informações do Livro</h2>
+            <form action=''>
+                <div>
+                    <img src={Livro} alt='Logo de Livro'/>
+                    <h3>Informações do Livro</h3>
+                </div>
+                <input type='text' placeholder='Titulo' required/>
+                <input type='text' placeholder='Categoria' required/>
+                <input type='text' placeholder='Autor' required/>
+                <input type='text' placeholder='Link da Imagem' required/>
             </form>
+            </section>
         </section>
     );
 }
