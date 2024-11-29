@@ -1,4 +1,4 @@
-import Livro01 from '../../Assets/cardbook.png';
+import Livro01 from '../../assets/cardbook.png';
 import S from './doados.module.scss';
 
 export default function Doados() {
@@ -13,7 +13,7 @@ export default function Doados() {
                     <p>Ficção</p>
                 </article>
                 <article>
-                    <img src={Livro01} alt="Imagem do Livro O protagonista" />
+                    <img src={Livro01} alt="Imagem do Livro  O protagonista" />
                     <h3>O protagonista</h3>
                     <p>Susanne Andrade</p>
                     <p>Ficção</p>

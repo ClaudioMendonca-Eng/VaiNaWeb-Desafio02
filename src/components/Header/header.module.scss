@@ -49,13 +49,30 @@ header{
         border: none;
         color: white;
         font-size: 15px;
+        padding-left: 6px;
+        width: 12vw;
         &::placeholder{
             color: white;
         }
     }
 }
 
-
+@media(max-whidth: 1170px){
+    .boxLogo{
+        border: solid 2px rgb(255, 0, 0);
+        width: 25vw;
+        h1{
+            font-size: 2vw;
+        }
+    }
+    .boxInput{
+        input{
+            &::placeholder{
+                font-size: 10px;
+            }
+        }
+    }
+}
 
 
 
