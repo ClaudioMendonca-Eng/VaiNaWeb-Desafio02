@@ -1,14 +1,12 @@
 
 
 .principal{
-    border: solid 2px #e40a0a;
     height: 80vh;
     display: flex;
     justify-content: center;
 }
 
 .container{
-    border: solid 2px #009c75;    
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
@@ -28,6 +26,31 @@
             align-items: center;
             justify-content: space-around;
             color: #005695;
+        }
+        input{
+            width: 22vw;
+            height: 4vh;
+            border-radius: 10px;
+            border: solid 2px #005695;
+            outline: none;
+            padding-left: 20px;
+            &::placeholder{
+                color: black;
+            }
+        }
+        .doar{
+            width: 11vw;
+            height: 5vh;
+            border: solid 2px #005695;
+            background-color: #005695;
+            color: white;
+            font-size: 18px;
+            padding-left: 0px;
+            cursor: pointer;
+            transition: 0.5s;
+            &:hover{
+                background-color: #0074c7;
+            }
         }
     }
     

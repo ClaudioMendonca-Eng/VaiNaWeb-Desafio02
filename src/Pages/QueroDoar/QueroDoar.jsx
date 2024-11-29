@@ -1,5 +1,5 @@
 import Livro from '../../assets/livro.png';
-import S from './QueroDoar.module.scss';
+import S from './queroDoar.module.scss';
 
 export default function QueroDoar() {
     return (
@@ -15,6 +15,7 @@ export default function QueroDoar() {
                 <input type='text' placeholder='Categoria' required/>
                 <input type='text' placeholder='Autor' required/>
                 <input type='text' placeholder='Link da Imagem' required/>
+                <input className={S.doar} type='submit' value='Doar'/>
             </form>
             </section>
         </section>

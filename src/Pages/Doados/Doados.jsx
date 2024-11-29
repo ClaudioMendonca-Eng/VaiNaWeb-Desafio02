@@ -1,15 +1,36 @@
-
+import Livro01 from '../../Assets/01livro.png';
+import S from './doados.module.scss';
 
 export default function Doados() {
     return (
-        <section>
+        <section className={S.boxDoados}>
             <h2>Livros Doados</h2>
-            <p>
-                Aqui você pode encontrar os livros que foram doados para o Livros Vai na Web.
-            </p>
-            <p>
-                Aproveite para navegar e encontrar o livro que você procura.
-            </p>
+            <section className={S.boxBooks}>
+                <article>
+                    <img src={Livro01} alt="Imagem do Livro O protagonista" />
+                    <h3>O protagonista</h3>
+                    <p>Susanne Andrade</p>
+                    <p>Ficção</p>
+                </article>
+                <article>
+                    <img src={Livro01} alt="Imagem do Livro O protagonista" />
+                    <h3>O protagonista</h3>
+                    <p>Susanne Andrade</p>
+                    <p>Ficção</p>
+                </article>
+                <article>
+                    <img src={Livro01} alt="Imagem do Livro O protagonista" />
+                    <h3>O protagonista</h3>
+                    <p>Susanne Andrade</p>
+                    <p>Ficção</p>
+                </article>
+                <article>
+                    <img src={Livro01} alt="Imagem do Livro O protagonista" />
+                    <h3>O protagonista</h3>
+                    <p>Susanne Andrade</p>
+                    <p>Ficção</p>
+                </article>
+            </section>
         </section>
     );
 }
