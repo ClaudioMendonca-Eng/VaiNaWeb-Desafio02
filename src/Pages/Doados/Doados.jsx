@@ -1,4 +1,4 @@
-import Livro01 from '../../Assets/01livro.png';
+import Livro01 from '../../Assets/cardbook.png';
 import S from './doados.module.scss';
 
 export default function Doados() {
