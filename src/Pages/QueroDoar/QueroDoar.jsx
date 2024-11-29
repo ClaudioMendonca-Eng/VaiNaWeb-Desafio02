@@ -1,5 +1,5 @@
 import Livro from '../../assets/livro.png';
-import S from './queroDoar.module.scss';
+import S from './QueroDoar.module.scss';
 
 export default function QueroDoar() {
     return (
@@ -8,7 +8,7 @@ export default function QueroDoar() {
             <h2>Por favor, preencha o formulário com suas informações e as informações do Livro</h2>
             <form action=''>
                 <div>
-                    <img src={Livro} alt='Logo de Livro'/>
+                    <img src={Livro} alt='Logo  de Livro'/>
                     <h3>Informações do Livro</h3>
                 </div>
                 <input type='text' placeholder='Titulo' required/>
