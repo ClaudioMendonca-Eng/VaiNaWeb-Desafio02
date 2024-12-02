@@ -13,19 +13,38 @@ footer{
     padding-left: 50px;
     padding-right: 50px;
     nav{
+        width: 16vw;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width: 16vw;
     }
-
 }
 
 .boxFim{
     background-color: #232020;
     height: 10vh;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+}
+
+@media(max-width: 900px){
+    .boxSocial{
+        nav{
+            width: 240px;
+        }
+    }
+}
+
+@media(max-width: 481px){
+    .boxSocial{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .boxFim{
+        p{
+            text-align: center;
+        }
+    }
 }
