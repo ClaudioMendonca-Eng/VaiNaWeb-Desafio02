@@ -6,21 +6,13 @@ O **Projeto Livraria** foi desenvolvido durante o curso de **Full Stack** da pla
 ## Índice
 <a id="topo"></a>
 
-- [📚 Projeto Livraria](#-projeto-livraria)
-  - [Índice](#índice)
-  - [🚀  Funcionalidades  ](#--funcionalidades--)
-  - [](#)
-  - [📂  Estrutura do Projeto ](#--estrutura-do-projeto-)
-  - [](#-1)
-  - [🛠️  Tecnologias Utilizadas ](#️--tecnologias-utilizadas-)
-  - [](#-2)
-  - [🌟  Como Executar o Projeto ](#--como-executar-o-projeto-)
-  - [](#-3)
-  - [🖥️  Deploy ](#️--deploy-)
-  - [](#-4)
-  - [📌  Observações ](#--observações-)
-  - [](#-5)
-  - [ Licença ](#-licença-)
+- [Funcionalidades](#funcionalidades)
+- [Estrutura do Projeto](#estrutura-do-projeto)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Como Executar o Projeto](#como-executar-o-projeto)
+- [Deploy](#deploy)
+- [Observações](#observacoes)
+- [Licença](#licenca)
 ---
 
 ## 🚀 <a name="funcionalidades"> Funcionalidades  </a>
