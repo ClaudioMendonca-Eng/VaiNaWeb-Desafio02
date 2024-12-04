@@ -26,7 +26,6 @@ O **Projeto Livraria** foi desenvolvido durante o curso de **Full Stack** da pla
 <p align="right">
   <a href="#topo" style="text-decoration: none; background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px;">Voltar ao Topo</a>
 </p>
----
 
 ## 📂 <a name="estrutura-do-projeto"> Estrutura do Projeto </a> 
 ```plaintext
@@ -41,7 +40,6 @@ src/
 <p align="right">
   <a href="#topo" style="text-decoration: none; background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px;">Voltar ao Topo</a>
 </p>
----
 
 ## 🛠️ <a name="tecnologias-utilizadas"> Tecnologias Utilizadas </a>
 - **React**  
@@ -54,7 +52,6 @@ src/
 <p align="right">
   <a href="#topo" style="text-decoration: none; background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px;">Voltar ao Topo</a>
 </p>
----
 
 ## 🌟 <a name="como-executar-o-projeto"> Como Executar o Projeto </a>
 
@@ -86,7 +83,6 @@ src/
 <p align="right">
   <a href="#topo" style="text-decoration: none; background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px;">Voltar ao Topo</a>
 </p>
----
 
 ## 🖥️ <a name="deploy"> Deploy </a>
 
@@ -95,7 +91,6 @@ Acesse o projeto ao vivo na Vercel: [Projeto Livraria na Vercel](https://vai-na-
 <p align="right">
   <a href="#topo" style="text-decoration: none; background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px;">Voltar ao Topo</a>
 </p>
----
 
 ## 📌 <a name="observações"> Observações </a>
 
@@ -109,7 +104,6 @@ Acesse o projeto ao vivo na Vercel: [Projeto Livraria na Vercel](https://vai-na-
 <p align="right">
   <a href="#topo" style="text-decoration: none; background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px;">Voltar ao Topo</a>
 </p>
----
 
 ## <a name="licenca"> Licença </a>
 
