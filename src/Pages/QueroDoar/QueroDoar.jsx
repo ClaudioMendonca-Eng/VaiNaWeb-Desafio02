@@ -1,4 +1,4 @@
-import S from './queroDoar.module.scss' // Importa o módulo de estilos CSS
+import S from './QueroDoar.module.scss';
 import livro from '../../assets/Vector.png' // Importa a imagem do livro
 import axios from 'axios' // Importa a biblioteca Axios para requisições HTTP
 import {useState} from 'react' // Importa o hook useState do React
@@ -73,4 +73,6 @@ export default function QueroDoar(){
         </section>
     )
 }
+
+
 
