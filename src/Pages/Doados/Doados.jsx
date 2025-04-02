@@ -7,9 +7,14 @@ export default function Doados() {
     const [livros, setLivros] = useState([]); // Estado para armazenar os livros
     
     const getLivros = async () => {
-        const response = await axios.get('https://vainaweb-api-livros.onrender.com/livros'); // Faz uma requisição GET para a API
-        setLivros(response.data); // Atualiza o estado com os dados recebidos
-    };
+        try {
+            const response = await axios.get("https://vainaweb-api-livros.onrender.com/livros")
+            setLivros(response.data)
+        } catch (error) {
+            console.error("Erro ao buscar livros:", error)
+        }
+    }
+
 
     useEffect(() => {
         getLivros(); // Chama a função para obter os livros quando o componente é montado
