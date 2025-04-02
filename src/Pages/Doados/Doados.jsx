@@ -27,9 +27,9 @@ export default function Doados() {
                 {livros.map((item) => (
                     <article key={item.id}>
                         <img src={item.imagem_url} alt="Imagem do Livro" />
-                        <h3>{item.titulo}</h3>
-                        <p>{item.autor}</p>
-                        <p>{item.categoria}</p>
+                                <h3>Título: {item.titulo}</h3>
+                                <p>Autor: {item.autor}</p>
+                                <p>Categoria: {item.categoria}</p>
                     </article>
                 ))}
             </section>

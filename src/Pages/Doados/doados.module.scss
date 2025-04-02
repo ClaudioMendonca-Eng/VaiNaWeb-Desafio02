@@ -76,6 +76,25 @@
     }
 }
 
+.bookItem {
+    display: flex;
+    align-items: center;
+}
+
+.bookImage {
+    img {
+        width: 50%;
+    }
+}
+
+.bookInfo {
+    border-right: 1px solid #ccc; // Adiciona a barra vertical à direita dos textos
+    padding-right: 10px; // Espaçamento interno à direita
+    h3, p {
+        margin: 0 0 5px 5px;
+    }
+}
+
 @media(max-width: 2800px){
     .boxDoados{
         justify-content: space-around;
