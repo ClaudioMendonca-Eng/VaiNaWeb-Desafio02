@@ -99,6 +99,25 @@
     }
 }
 
+.loader {
+    font-size: 24px; /* Aumenta o tamanho do texto */
+    color: #005695; /* Cor do texto */
+    text-align: center;
+    margin: 20px 0;
+    animation: pulse 1.5s infinite; /* Animação de pulsar */
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 0.5; /* Reduz a opacidade no início e no fim */
+        transform: scale(1); /* Tamanho normal */
+    }
+    50% {
+        opacity: 1; /* Opacidade total no meio */
+        transform: scale(1.1); /* Aumenta levemente o tamanho */
+    }
+}
+
 @media(max-width: 2800px){
     .boxDoados{
         justify-content: space-around;
